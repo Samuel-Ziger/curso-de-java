@@ -1,5 +1,7 @@
 package Aprendizado;
 
+import java.util.Locale;
+
 public class Exercicio1 {
     
     public static void main(String[] args){
@@ -63,6 +65,7 @@ Boa prática!
 
         System.out.printf("%nMeasure with eight decimal places: %.8f%n", measure);
         System.out.printf("Rounded (three decimal places): %.3f%n", measure);
+        Locale.setDefault(Locale.US);
         System.out.printf("US decimal point: %.3f%n", measure);
 
 
