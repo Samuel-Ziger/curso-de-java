@@ -42,7 +42,37 @@ h = 5.0;
 area = (b + B) / 2.0 * h;
 System.out.println(area);
 // O resultado sera de 35.0
+// Observação (como modo de boa pratica se está sendo usado uma variáel do tipo double colocar o . + 0 caso não seja outro numero como no exemplo que 6.0)
 
+
+// exemplo 4 
+int a1, b1;
+double resultado;
+a1 = 5;
+b1 = 2;
+resultado = a1 / b1;
+System.out.println(resultado);
+// nesse caso o resultado seria 2,5 mas vai dar 2.0 porque ?
+// Porque o compilador de java vai lê que a variável e = a int que siginifica que ela e de número interio mesmo que o resultado 
+// seja uma variável estilo double quando atribuida ela esta sendo atribuida a uma variável int então ele corta as casas decimais.
+// então pra avisar ao computador que não pra ser feito isso será da seguite forma:
+int a2, b2;
+double resultado2;
+a2 = 5;
+b2 = 2;
+resultado2 = (double) a2 / b2;
+System.out.println(resultado2);
+// dessa forma colcoando o double dentro de () antes de declarar as variáveis a & b ele iria dar a respsotar de 2,5 isso e chamado de casting 
+
+
+//agora no exemplo 5 iremos vê mais sobre o casting 
+// ele faz isso porque o complidador vai lê como se você fosse perde informção,por isso deve ser declarado sua forma.
+// exemplo 5:
+double a3;
+int b3;
+a3 = 5.0;
+b3 = (int) a3;/* esse e o casting  o (int) caso faça isso sem ele o resultado dara errado*/
+System.out.println(b3);
 
     }
 }
