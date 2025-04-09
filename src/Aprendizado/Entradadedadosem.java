@@ -80,5 +80,60 @@ public class Entradadedadosem {
             30
             3.3
              auqi eu digitei o a, b & c tudo na mesma linah dando espaço e esse foi o resultado  */
+
+             //Pra ler umn texto até a quebra de linha 
+             Scanner sc1 = new Scanner(System.in);
+             String s1,s2, s3;
+             s1 = sc1.nextLine();
+             s2 = sc1.nextLine();
+             s3 = sc1.nextLine();
+
+             System.out.println("Dados digitados:");
+             System.out.println(s1);
+             System.out.println(s2);
+             System.out.println(s3);
+             sc1.close();
+            // o nextLine serve pra você chama um texto até a quebra de linha.
+            //Observação; se usar apenas o next ele vai ler apenas a primeira palavra.
+
+
+            // Quebra de linha pendente
+            int x5 ;
+            String a1, a2, a3;
+            x5 = sc1.nextInt();
+            a1 = sc1.nextLine();
+            a2 = sc1.nextLine();
+            a3 = sc1.nextLine();
+            System.out.println("Dados digitados:");
+            System.out.println(x5);
+            System.out.println(a1);
+            System.out.println(a2);
+            System.out.println(a3);
+            sc1.close();
+            /*Quando você usa um  comando de leitura diferente  do nextline()e dá  alguma quebra de linha, essa quebra de linha 
+            fica "pendente" na entrada padrão.
+            Se você então fizer um  nextLine(), aquela quebra de linha pendente será absorvida pelo nextLine().
+            em outras palavras quando você colocar o número no int ele deixarar uma string vazia que será cosumida pelo proxímo 
+            nextline() fazendo que quando chegar no a3 por exemplo ele acabe antes porque ficou uma string vazia.
+
+
+            Solução:
+            Faça o nextLine() Extra antes de fazer o Nextline de seu interesse.
+            exemplo:
+            int x5 ;
+            String a1, a2, a3;
+            x5 = sc1.nextInt();
+            sc1.nextLine();------------> nextLine sozinho pra consumir a string vazia
+            a1 = sc1.nextLine();
+            a2 = sc1.nextLine();
+            a3 = sc1.nextLine();
+            System.out.println("Dados digitados:");
+            System.out.println(x5);
+            System.out.println(a1);
+            System.out.println(a2);
+            System.out.println(a3);
+            sc1.close();
+             */
+
         }
     }
