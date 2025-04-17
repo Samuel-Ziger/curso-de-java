@@ -13,18 +13,7 @@ public class EstruturaCondicionslCompodts {
          */
 
         //exemplo:
-    Scanner sc = new Scanner(System.in);
-        int hora;
-        System.out.println("Quantas horas ?");// Aqui o sistema vai perguntar ao usúraio qauntas horas são.
-        hora = sc.nextInt();
 
-        if (hora < 12){ // Aqui está declarado o valor que sera nmenor (<) que 12
-            System.out.println("Bom dia");//Se e o usúario falar que e menor que 12 horas ele vai apaerecer "Bom dia" 
-        }
-        else{
-            System.out.println("Boa tarde");// E se for maior que 12 horas ele vai aparecer "Boa tarde"
-        }
-        sc.close();
         /*
          E caso se eu tiver mais de duas possibilidades ?
           exemplo:
@@ -58,6 +47,43 @@ public class EstruturaCondicionslCompodts {
   IMPORTANTE: Mantenha a indentação correta!
   Ela ajuda a visualizar facilmente quais comandos pertencem a cada bloco,
   o que é essencial em estruturas aninhadas como essa.
+ */
+// agora vamos resolver o problema:
+Scanner sc1 = new Scanner(System.in);
+int hora1;
+System.out.println("Quantas horas ?");// Aqui o sistema vai perguntar ao usúraio qauntas horas são.
+hora1 = sc1.nextInt();
+
+if (hora1 < 12){ // Aqui está declarado o valor que sera nmenor (<) que 12
+    System.out.println("Bom dia");//Se e o usúario falar que e menor que 12 horas ele vai apaerecer "Bom dia" 
+}
+else{
+    if(hora1 < 18){
+        System.out.println("Boa tarde");// no caso pra vi ao else a gente já sabe que ele e maior que 12 e menor que 18
+    }
+    else{
+System.out.println("Boa noite");//Então sabendo que o outro e menor que 18 so restou ser maior que 18
+    }
+}
+sc1.close();
+
+/*
+ Macede de identação:
+ Scanner sc1 = new Scanner(System.in);
+int hora1;
+System.out.println("Quantas horas ?");
+hora1 = sc1.nextInt();
+
+if (hora1 < 12){ --> dessa forma da pra encadeade inumero if e else se a necessidade de abrir e fechar chaves porque será tudo um bloco só.
+    System.out.println("Bom dia");
+else f(hora1 < 18){
+    system.out.println("Boa tarde");
+}
+else{
+    System.out.println("Boa noite");
+}
+
+sc1.close();
  */
     }
 }
