@@ -43,7 +43,7 @@ for ( int i=0; i<N; i++){
 System.out.println(soma);
 sc.close();
 /*
- Perceba que essa estrutura "para" e otima pra fazer uam repetição baseada em uma contagem.
+ Perceba que essa estrutura "para" e otima pra fazer uam repetição baseada em uma contag
  */
     }
 }
