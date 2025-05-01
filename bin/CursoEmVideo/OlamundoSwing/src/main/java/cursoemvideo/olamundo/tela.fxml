@@ -1,8 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.AnchorPane?>
-
-<AnchorPane xmlns:fx="http://javafx.com/fxml" fx:controller="cursoemvideo.olamundo.TelaController">
-    <Label fx:id="labelMensagem" layoutX="20.0" layoutY="20.0" text="Olá, mundo!" />
-</AnchorPane>
