@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE attributes PUBLIC "-//NetBeans//DTD DefaultAttributes 1.0//EN" "http://www.netbeans.org/dtds/attributes-1_0.dtd">
+<attributes version="1.0">
+    <fileobject name="|home|ziger|NetBeansProjects|OlaMundoJavaFx">
+        <attr name="AuxilaryConfiguration" stringvalue="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>\u000a&lt;project-private>\u000a    &lt;open-files xmlns=&quot;http://www.netbeans.org/ns/projectui-open-files/2&quot;>\u000a        &lt;group>\u000a            &lt;file>file:/home/ziger/NetBeansProjects/OlaMundoJavaFx/src/main/resources/com/mycompany/olamundojavafx/primary.fxml&lt;/file>\u000a            &lt;file>file:/home/ziger/NetBeansProjects/OlaMundoJavaFx/src/main/resources/com/mycompany/olamundojavafx/secondary.fxml&lt;/file>\u000a        &lt;/group>\u000a    &lt;/open-files>\u000a    &lt;editor-bookmarks xmlns=&quot;http://www.netbeans.org/ns/editor-bookmarks/2&quot; lastBookmarkId=&quot;0&quot;/>\u000a&lt;/project-private>\u000a"/>
+    </fileobject>
+    <fileobject name="|home|ziger|curso_java|src|CursoEmVideo|OlamundoSwing">
+        <attr name="AuxilaryConfiguration" stringvalue="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?>\u000a&lt;project-private>\u000a    &lt;editor-bookmarks xmlns=&quot;http://www.netbeans.org/ns/editor-bookmarks/2&quot; lastBookmarkId=&quot;0&quot;/>\u000a    &lt;open-files xmlns=&quot;http://www.netbeans.org/ns/projectui-open-files/2&quot;>\u000a        &lt;group>\u000a            &lt;file>file:/home/ziger/curso_java/src/CursoEmVideo/OlamundoSwing/src/main/java/cursoemvideo/olamundo/OlaMundoJava.java&lt;/file>\u000a        &lt;/group>\u000a    &lt;/open-files>\u000a&lt;/project-private>\u000a"/>
+    </fileobject>
+    <fileobject name="|home|ziger|curso_java|src|CursoEmVideo|OlamundoSwing|src|main|java|cursoemvideo|olamundo|OlaMundoJava.form">
+        <attr name="template" boolvalue="true"/>
+    </fileobject>
+    <fileobject name="|home|ziger|snap|netbeans|common|127|mavencachedirs|174829469|org-netbeans-modules-profiler">
+        <attr name="settingsFor" urlvalue="file:/home/ziger/curso_java/src/CursoEmVideo/OlamundoSwing/"/>
+    </fileobject>
+    <fileobject name="|home|ziger|snap|netbeans|common|127|mavencachedirs|265516463|org-netbeans-modules-profiler">
+        <attr name="settingsFor" urlvalue="file:/home/ziger/curso_java/src/CursoEmVideo/OlaMundoJavaFx/"/>
+    </fileobject>
+    <fileobject name="|home|ziger|snap|netbeans|common|127|mavencachedirs|362051621|org-netbeans-modules-profiler">
+        <attr name="settingsFor" urlvalue="file:/home/ziger/NetBeansProjects/OlaMundoJavaFx/"/>
+    </fileobject>
+    <fileobject name="|home|ziger|snap|netbeans|common|127|mavencachedirs|926733804|org-netbeans-modules-profiler">
+        <attr name="settingsFor" urlvalue="file:/home/ziger/NetBeansProjects/AplicacaoFXML/"/>
+    </fileobject>
+    <fileobject name="|usr|lib|jvm|java-17-openjdk-amd64">
+        <attr name="J2SEPlatform.displayName" stringvalue="JDK 17 (System)"/>
+    </fileobject>
+</attributes>
