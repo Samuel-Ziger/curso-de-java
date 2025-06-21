@@ -20,8 +20,9 @@ public class FuncoeosParaString {
         String s04 = original.substring(2); // Fazendo com que pegue do segundo caracter em diante e crie uma nova string. senod que no exemplo as letrsd abc vai ser assim : --> 0 = a, b = 1 e c =2 então o segunda caracter e o "c".
         String s05 = original.substring(2, 9); //Fazendo a string corta entre os caracte
         String s06 = original.replace('a', 'x'); // Aqui estou pedindo pra sempre que encontrar um "a" que ele seja trocado pelo "x".
-
-
+        String s07 = original.replace("abc", "xy"); // o Replace tambem serve para subString
+        int i = original.indexOf("bc"); // vai mostrar qual e a primeira posição do subString "bc" na String original no caso atual sendo na posiçaõ 1 por veja "abcd" mas o a  e = a 0 então coemaça o 1 a partir do "b"
+        int j = original.lastIndexOf("bc"); // aqui já o oposto aqui queremos saber qual e a última ocorrencia. 
 
 
 
@@ -33,6 +34,30 @@ public class FuncoeosParaString {
         System.out.println("trim: - " + s03 + "-"  );        // vai remover os espaços após a String.
         System.out.println("Substring(2): - " + s04 + "-"  ); // A após o segundo caracter sendo ele a letra "C" ele ira mostra o restante da String.
         System.out.println("Substring(2): - " + s05 + "-"  ); // Aqui vai acontecer que ele sera feito o recorte
-        System.out.println("replace ('a', 'x')" + s06 + "-"); // Aqui vai mostrar na tela a troca do "a" pelo "x"
+        System.out.println("replace ('a', 'x')" + s06 + "-"); // Aqui vai mostrar na tela a troca do "a" pelo "x" mas isso serve pra qualquer forma.
+        System.out.println( "replace ( 'abc', 'xy')" + s07 + "-" ); // Aqui as subString sera trocada sempre de "abc" pra "xy" mas isso serve pra qualquer forma.
+        System.out.println("index of 'bc': " + i); // Aqui ele vai acusar o número da inde se inicia a nossa ocorrencia
+        System.out.println("Last index of 'bc':" + j ); // e Aqui o final dela sendo que as duas ocorrencia se chamam "bc" mas estão em strings diferentes
+
+        /*
+         * Operção Split --> ela serve pra separar a string nos espaços que você definir.
+         * String s = "potato apple lemon";
+         * String[] vect = s.split(""); --> o espaço em branco dentro das aspas
+         * String word1 = vect[0];
+         * String word2 = vect[1];
+         * String word3 = vect[2];
+         * dessa froma ele vai realizar o corte e vai guardar as partes separadas em vetores nesse caso chamada de vect.
+         * 
+         */
+        String s = "potato apple lemon";
+        String[] vect = s.split(" ");
+        System.out.println( vect [0]);
+        System.out.println( vect [1]);
+        System.out.println( vect [2]);
+        // aqui ele vai mandar eles separados pelos espaço em branco
+
+
+
+
     }
 }
