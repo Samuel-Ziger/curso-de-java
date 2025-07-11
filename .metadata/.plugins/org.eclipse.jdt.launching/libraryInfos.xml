@@ -13,4 +13,5 @@
     </libraryInfo>
     <libraryInfo home="/usr/lib/jvm/java-17-openjdk-amd64" version="17.0.14"/>
     <libraryInfo home="/home/ziger/.p2/pool/plugins/org.eclipse.justj.openjdk.hotspot.jre.full.linux.x86_64_21.0.6.v20250130-0529/jre" version="21.0.6"/>
+    <libraryInfo home="/usr/lib/jvm/jdk-24.0.1-oracle-x64" version="24.0.1"/>
 </libraryInfos>
