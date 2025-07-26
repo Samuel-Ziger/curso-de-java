@@ -1,0 +1,13 @@
+{
+  "version": "0.2.0",
+  "configurations": [
+    {
+      "type": "java",
+      "name": "Executar JavaFX",
+      "request": "launch",
+      "mainClass": "Aprendizado.JavaCursoEmVideo.Main",  // Sua classe principal
+      "vmArgs": "--module-path /home/ziger/javafx-sdk-24.0.1/lib --add-modules javafx.controls,javafx.fxml",
+      "projectName": "curso_java"  // Nome do seu projeto
+    }
+  ]
+}

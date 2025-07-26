@@ -1,0 +1,6 @@
+{
+  "java.home": "/home/ziger/jdk-24",
+  "java.project.referencedLibraries": [
+    "/home/ziger/javafx-sdk-24.0.1/lib/*"
+  ]
+}
