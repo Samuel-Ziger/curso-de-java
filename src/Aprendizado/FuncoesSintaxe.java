@@ -3,7 +3,7 @@ package Aprendizado;
 import java.util.Scanner;
 
 public class FuncoesSintaxe {
-    public static void main(String[] args) {
+    public static void main(String[] args) { // aqui e a função padrão feita pelo java
         /*
          * Funções:
          * -> Representam um processamento que possui um significado 
@@ -60,7 +60,7 @@ public class FuncoesSintaxe {
         int c1 = sc.nextInt();
 
         int higer = max(a, b, c); // esse max vai ser a onde vai ser criada a função que vai buscar o maior dos três números inteiro. sendo uma função personalizada.
-         
+        sowResult(higer); //vai aparecer o resultado.
 
 
 
@@ -74,4 +74,26 @@ public class FuncoesSintaxe {
 
         
     }
+    //Aqui agora vai ser criado uma função da max
+    // O public e pra que a função fique disponivel em outras classes.
+    // O static e pra que essa função possa ser chamda independe do objeto.
+    // Após o static dentro o int quer dizer que eu stou chamando um número inteiro dentro da max a onde foi atribuida o local de entrada x,y e z (OBSERVAÇÃO ELE NÃO PRECISAR O MESMO NOME DA VARIÁVEL)
+    public static  int max (int x, int y, int z ){ // Agora foi declarado uma função, agora dentro das "{}" vou colocar a lógica da minha função.
+        int aux; // Pra facilicatr estou declarando uma varivale local aqui da função ela vai funcionar na escopo da função.
+        if(x > y && x >z){
+        aux =x;
+    }
+    else if (y > z){
+        aux = y;
+    }
+    else {
+        aux = z;
+    }
+    return aux;
+    }
+// Dentro da nova função a baixo a palavra "void" quer dizer vazio sendo usado pra uma função de ação.
+    public static void  sowResult(int value) {
+        System.out.println("higer =" + value);
+    }
+
 }
